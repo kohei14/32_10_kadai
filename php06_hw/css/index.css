@@ -1,0 +1,36 @@
+/* login.phpから取得したものをdivでくくり、CSSで非表示設定 */
+.received{
+    visibility:hidden
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* 画像のサイズをしている */
+.thumbnails li img{
+    width: 290px;
+    height: 435px;
+}
+
+.send-wrapper{
+    text-align: center;
+}
+
+.send {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 30%;
+    border: 0;
+    margin-top:40px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    text-align: center;
+  }
